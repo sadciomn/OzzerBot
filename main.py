@@ -9,7 +9,6 @@ from functions.weather import weather_check
 from states.steps import Steps
 
 
-logging.basicConfig(level=logging.INFO)
 bot = Bot(token=api_token, default=DefaultBotProperties(parse_mode="html"))
 dp = Dispatcher()
 
