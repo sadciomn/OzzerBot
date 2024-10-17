@@ -1,6 +1,6 @@
 import asyncio
 from config.config import hello_sticker
-from config.token import api_token
+from config.config import api_token
 from aiogram import Bot, Dispatcher, types, Router, F
 from aiogram.filters.command import Command
 from aiogram.client.default import DefaultBotProperties
