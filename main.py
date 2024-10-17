@@ -1,4 +1,3 @@
-import logging
 import asyncio
 from config.config import hello_sticker
 from config.token import api_token
